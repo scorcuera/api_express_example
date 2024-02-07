@@ -1,0 +1,26 @@
+### Get all products
+GET http://localhost:3000/products
+
+### Get product by id
+GET http://localhost:3000/products/2
+
+### Create a new productp
+POST http://localhost:3000/products/
+Content-Type: application/json
+
+{
+    "name": "plant",
+    "price": 15
+}
+
+### Update a product
+PUT http://localhost:3000/products/2
+
+{
+    "name": "old book",
+    "price": 130
+},
+
+
+### Delete a product
+DELETE http://localhost:3000/products/2
